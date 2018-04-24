@@ -1,0 +1,39 @@
+//
+//  MovieTableViewController.swift
+//  MovieKeeper
+//
+//  Created by Stanislav Cherkasov on 24.04.2018.
+//  Copyright © 2018 Stanislav Cherkasov. All rights reserved.
+//
+
+import UIKit
+
+class MovieTableViewController: UITableViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+    }
+
+    // MARK: - Table view data source
+
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        
+        return 0
+    }
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return 0
+    }
+
+    /*
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
+        // Configure the cell...
+
+        return cell
+    }
+    */
+}
