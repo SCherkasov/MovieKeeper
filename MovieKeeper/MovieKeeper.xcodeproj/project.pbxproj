@@ -18,6 +18,7 @@
 		8A481971208FC00200F8A9CB /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A481970208FC00200F8A9CB /* DetailMovieViewController.swift */; };
 		8A481973208FC62E00F8A9CB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A481972208FC62E00F8A9CB /* Movie.swift */; };
 		8AB0630A20923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0630920923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift */; };
+		DF66DD6B209264020073E04D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF66DD6A209264020073E04D /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8A481970208FC00200F8A9CB /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
 		8A481972208FC62E00F8A9CB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		8AB0630920923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieView2TableViewCell.swift; sourceTree = "<group>"; };
+		DF66DD6A209264020073E04D /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				8A48195D208F9D6200F8A9CB /* Assets.xcassets */,
 				8A48195F208F9D6200F8A9CB /* LaunchScreen.storyboard */,
 				8A481962208F9D6200F8A9CB /* Info.plist */,
+				DF66DD6A209264020073E04D /* View.xib */,
 			);
 			path = MovieKeeper;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF66DD6B209264020073E04D /* View.xib in Resources */,
 				8A481961208F9D6200F8A9CB /* LaunchScreen.storyboard in Resources */,
 				8A48195E208F9D6200F8A9CB /* Assets.xcassets in Resources */,
 				8A48195C208F9D5F00F8A9CB /* Main.storyboard in Resources */,
@@ -307,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HH9AF9DGX8;
 				INFOPLIST_FILE = MovieKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.MovieKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -322,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HH9AF9DGX8;
 				INFOPLIST_FILE = MovieKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.MovieKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
