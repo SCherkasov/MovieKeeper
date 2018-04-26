@@ -60,8 +60,7 @@ class MovieTableViewController: UITableViewController {
         if segue.identifier == "detailSegue" {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let destinationViewController = segue.destination as! DetailMovieViewController
-                destinationViewController.imageDetailName = self.movie[indexPath.row].imagePoster
-                destinationViewController.titleDetail = self.movie[indexPath.row].title
+                destinationViewController.movies = self.movie[indexPath.row]
             }
         }
     }

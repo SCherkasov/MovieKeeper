@@ -17,6 +17,7 @@
 		8A48196F208FA95400F8A9CB /* AddNewMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48196E208FA95400F8A9CB /* AddNewMovieTableViewCell.swift */; };
 		8A481971208FC00200F8A9CB /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A481970208FC00200F8A9CB /* DetailMovieViewController.swift */; };
 		8A481973208FC62E00F8A9CB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A481972208FC62E00F8A9CB /* Movie.swift */; };
+		8AB0630A20923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0630920923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8A48196E208FA95400F8A9CB /* AddNewMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMovieTableViewCell.swift; sourceTree = "<group>"; };
 		8A481970208FC00200F8A9CB /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
 		8A481972208FC62E00F8A9CB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8AB0630920923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieView2TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				8A481956208F9D5F00F8A9CB /* AppDelegate.swift */,
 				8A48195A208F9D5F00F8A9CB /* Main.storyboard */,
+				8AB0630920923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift */,
 				8A481970208FC00200F8A9CB /* DetailMovieViewController.swift */,
 				8A481972208FC62E00F8A9CB /* Movie.swift */,
 				8A481968208FA0AD00F8A9CB /* MovieTableViewController.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A481973208FC62E00F8A9CB /* Movie.swift in Sources */,
+				8AB0630A20923D5F001BF3E5 /* DetailMovieView2TableViewCell.swift in Sources */,
 				8A48196B208FA30500F8A9CB /* AddNewMovieTableViewController.swift in Sources */,
 				8A48196F208FA95400F8A9CB /* AddNewMovieTableViewCell.swift in Sources */,
 				8A481969208FA0AD00F8A9CB /* MovieTableViewController.swift in Sources */,
